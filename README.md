@@ -1,11 +1,11 @@
 ------------------------------
 Feita a correção, faltava o button, para nãoo repetir
 
- $('.lista-veiculos button') 
+    $('.lista-veiculos button') 
 
  outra forma seria:
 
-   $('.lista-veiculos button').click(function() {
+    $('.lista-veiculos button').click(function() {
     const destino = $('#contato');
     const nomeVeiculo = $(this).siblings('h3').text();
 
@@ -15,7 +15,7 @@ Feita a correção, faltava o button, para nãoo repetir
       scrollTop: destino.offset().top
     }, 1000)
 
-  })
+    })
 -------------------------------------
 bug ao clicar em "Tenho interesse"
 
